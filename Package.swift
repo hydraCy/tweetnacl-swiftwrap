@@ -9,6 +9,9 @@ let package = Package(
         .library(
             name: "TweetNacl",
             targets: ["TweetNacl"]),
+        .library(
+            name: "CTweetNacl",
+            targets: ["CTweetNacl"]),
     ],
     dependencies: [],
     targets: [
